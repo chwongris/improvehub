@@ -10679,7 +10679,7 @@ a.carousel-arrow-next {
 /* ===== About Us block ===== */
 
 img.img-about {
-	width: 40%;
+	width: 100%;
 	padding: 10px;
 	border: 1px solid #eee;
 	float: left;
