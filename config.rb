@@ -1,3 +1,13 @@
+activate :deploy do |deploy|
+  deploy.method = :git
+  # Optional Settings
+  # deploy.remote = "custom-remote" # remote name or git url, default: origin
+  # deploy.branch = "custom-branch" # default: gh-pages
+end
+
+activate :relative_assets
+set :relative_links, true
+
 ###
 # Compass
 ###

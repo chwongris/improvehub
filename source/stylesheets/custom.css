@@ -101,7 +101,7 @@ h1.hl, h2.hl, h3.hl, h4.hl, h5.hl, h6,hl {
 	font-size: 48px;
 	margin-top: 70px;
 	text-transform: uppercase;
-	margin-left: 70px;
+	margin-left: 20px;
 	text-shadow: 1px 1px 3px #666;
 	filter: Shadow(Color=#666666, Direction=45, Strength=3);
 }
@@ -123,7 +123,7 @@ h1.hl, h2.hl, h3.hl, h4.hl, h5.hl, h6,hl {
 	top: 20px;
 	right:-40px;
 	border-radius: 3px;
-	border: 8px solid rgba(255, 255, 255, 0.8);
+	border: 8px solid rgba(255, 255, 255, 1);
 	-webkit-animation-duration: 1s;
 	-moz-animation-delay: 1s;
 }
@@ -137,7 +137,7 @@ h1.hl, h2.hl, h3.hl, h4.hl, h5.hl, h6,hl {
 	top: 190px;
 	left: -60px;
 	border-radius: 3px;
-	border: 8px solid rgba(200, 200, 200, 0.8);
+	border: 8px solid rgba(200, 200, 200, 1);
 	-webkit-animation-duration: 1.3s;
 	-moz-animation-delay: 1.3s;
 }
@@ -149,7 +149,7 @@ h1.hl, h2.hl, h3.hl, h4.hl, h5.hl, h6,hl {
 	background-position: center;
 	position: absolute;
 	border-radius: 3px;
-	border: 8px solid rgba(128, 128, 128, 0.8);
+	border: 8px solid rgba(200, 200, 200, 1);
 	top: 150px;
 	left: 380px;
 	-webkit-animation-duration: 1.6s;
@@ -165,7 +165,7 @@ h1.hl, h2.hl, h3.hl, h4.hl, h5.hl, h6,hl {
 	top: 40px;
 	right:0px;
 	border-radius: 3px;
-	border: 8px solid rgba(255, 255, 255, 0.8);
+	border: 8px solid rgba(255, 255, 255, 1);
 	-webkit-animation-duration: 1s;
 	-moz-animation-delay: 1s;
 }
@@ -177,9 +177,9 @@ h1.hl, h2.hl, h3.hl, h4.hl, h5.hl, h6,hl {
 	background-position: center;
 	position: absolute;
 	top: 200px;
-	left: 340px;
+	left: 320px;
 	border-radius: 3px;
-	border: 8px solid rgba(128, 128, 128, 0.8);
+	border: 8px solid rgba(200, 200, 200, 1);
 	-webkit-animation-duration: 1.3s;
 	-moz-animation-delay: 1.3s;
 }
@@ -191,14 +191,14 @@ h1.hl, h2.hl, h3.hl, h4.hl, h5.hl, h6,hl {
 	background-position: center;
 	position: absolute;
 	border-radius: 3px;
-	border: 8px solid rgba(200, 200, 200, 0.8);
+	border: 8px solid rgba(200, 200, 200, 1);
 	top: 160px;
 	left: -70px;
 	-webkit-animation-duration: 1.6s;
 	-moz-animation-delay: 1.6s;
 }
 .list {
-	margin: 50px 0 50px 50px;
+	margin: 50px 0 50px 0px;
 }
 .list ul {
 	padding: 0;
@@ -489,8 +489,12 @@ a.carousel-arrow-next {
 
 /* ===== About Us block ===== */
 
+.line{
+	border-bottom: 1px solid black;
+}
+
 img.img-about {
-	width: 40%;
+	width: 100%;
 	padding: 10px;
 	border: 1px solid #eee;
 	float: left;
