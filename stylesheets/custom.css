@@ -490,6 +490,10 @@ a.carousel-arrow-next {
 
 /* ===== About Us block ===== */
 
+.line{
+	border-bottom: 1px solid black;
+}
+
 img.img-about {
 	width: 100%;
 	padding: 10px;
